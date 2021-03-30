@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>E-Judging</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/check_Events.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="bar">
+            <div class="logo">
+                <img src="logo.png">
+    
+            </div>
+            
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+    
+        <div id="menubar" class="container" onclick="menu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div id="x" onclick="back()">Back</div>
+        </div>
+        
+        <div id="container2" class="con">
+            
+            <a href="#" class="active">Home</a>
+            <a href="#">Events</a>
+            <a href="#">Feature</a>
+            <a href="#">About</a>
+        </div>
+    
+    </body>
+    <header>
+        <div class="formBox">
+            
+            <section>
+                <table>
+                    <tr>
+                        <th colspan="3">Event Name | Event ID</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="4">
+                            <h1>Organizer Name</h1>
+                            <img src="css/fin.png">
+                        </th>
+                        <th colspan="3">Event Description</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Number of Contestants</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Number of Judges</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Status</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Participants</th>
+                        <th>Vote <button id="on" onclick="on()">ON</button><button id="off" disabled onclick="off()">OFF</button></th>
+                        
+                    </tr>
+                    <tr>
+                        <td>Contestant 1</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio1"></td>
+                    </tr>
+                    <tr>
+                        <td>Contestant 2</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio2"></td>
+                    </tr>
+                    <tr>
+                        <td>Contestant 3</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio3"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Contestant 4</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio4"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Contestant 5</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio5"></td>
+                    </tr>
+                    <tr>
+                        <td>Contestant 6</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio6"></td>
+                    </tr>
+                    <tr>
+                        <td>Contestant 7</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio7"></td>
+                    </tr>
+                    <tr>
+                        <td>Contestant 8</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio8"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Contestant 9</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio9"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Contestant 10</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio10"></td>
+                    </tr>
+                    <tr>
+                        <td>Contestant 11</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio11"></td>
+                    </tr>
+                    <tr>
+                        <td>Contestant 12</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio12"></td>
+                    </tr>
+                    <tr>
+                        <td>Contestant 13</td>
+                        <td>Status</td>
+                        <td>Vote<input type="radio" disabled id="radio13"></td>
+                    </tr>
+                    
+                    <tr>
+                        <th colspan="3">Judges</th>
+                    </tr>
+                    <tr>
+                        <td>Judge 1</td>
+                        <td>Status</td>
+                        <td>Code Generator</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Judge 2</td>
+                        <td>Status</td>
+                        <td>Code Generator</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Judge 3</td>
+                        <td>Status</td>
+                        <td>Code Generator</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Judge 4</td>
+                        <td>Status</td>
+                        <td>Code Generator</td>
+                    </tr>
+                </table>
+                <a href="orgpage.html">Save</a>
+            </section>
+            
+        </div>
+                
+        <footer>
+            <a href="#"><img src="icons/fb.png"></a>
+            <a href="#"><img src="icons/insta.png"></a>
+            <a href="#"><img src="icons/twitter.png"></a>
+        </footer>
+    </header>
+
+    <script>
+        var btn_on = document.getElementById("on");
+        var btn_off = document.getElementById("off");
+        var radio1 = document.getElementById("radio1");
+        var radio2 = document.getElementById("radio2");
+        var radio3 = document.getElementById("radio3");
+        var radio4 = document.getElementById("radio4");
+        var radio5 = document.getElementById("radio5");
+        var radio6 = document.getElementById("radio6");
+        var radio7 = document.getElementById("radio7");
+        var radio8 = document.getElementById("radio8");
+        var radio9 = document.getElementById("radio9");
+        var radio10 = document.getElementById("radio10");
+        var radio11 = document.getElementById("radio11");
+        var radio12 = document.getElementById("radio12");
+        var radio13 = document.getElementById("radio13");
+        
+
+        function on(){
+            radio1.disabled = false;
+            radio2.disabled = false;
+            radio3.disabled = false;
+            radio4.disabled = false;
+            radio5.disabled = false;
+            radio6.disabled = false;
+            radio7.disabled = false;
+            radio8.disabled = false;
+            radio9.disabled = false;
+            radio10.disabled = false;
+            radio11.disabled = false;
+            radio12.disabled = false;
+            radio13.disabled = false;
+            
+            btn_off.disabled = false;
+            btn_on.disabled = true;
+        }
+        function off(){
+            
+            radio1.disabled = true;
+            radio2.disabled = true;
+            radio3.disabled = true;
+            radio4.disabled = true;
+            radio5.disabled = true;
+            radio6.disabled = true;
+            radio7.disabled = true;
+            radio8.disabled = true;
+            radio9.disabled = true;
+            radio10.disabled = true;
+            radio11.disabled = true;
+            radio12.disabled = true;
+            radio13.disabled = true;
+            
+            btn_off.disabled = true;
+            btn_on.disabled = false;
+        }
+    </script>
+</html>

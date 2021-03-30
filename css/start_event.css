@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+    cursor: default;
+ }
+
+ body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img/bg.jpg");
+    height: 100%;
+    width: 100%;
+     background-size: cover;
+     background-position: center;
+ }
+
+ header{ 
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img/homepage.jpg");
+    height: 40vh;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;   
+}
+
+.formBox{
+    position: relative;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    background:#fff;
+    padding: 10px;
+    max-width: 1277px;
+    margin: auto;
+}
+
+/*MENU BAR*/
+.bar{
+   position: sticky;
+   top: 0;
+   margin: auto;
+   max-width: 1300px;
+   width: 100%;
+   height: 80px;
+   background: #134032;
+   z-index: 1000;
+}
+.logo img{
+   position: relative;
+   left: 15px;
+   margin-top: 18px;
+   width: 170px;
+   height: auto;
+   right: 15px;
+}
+
+table{
+    border: 1px solid #134032;
+    width: 1300px;
+    position: relative;
+    background:#fff;
+    margin: auto;
+
+
+ 
+
+}
+td, th{
+    border: 1px solid #134032;
+ 
+}
+th{
+    height: 40px;
+    background-color: #134032;
+    color: #fff;
+    font-size: 16pt;
+}
+#form_control{
+    padding: 5px;
+    width: 96%;
+}
+.background{
+    background-color: #fff;
+    width: 1300px;
+    min-height: 100vh;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+button{
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+
+
+}
+.table_container{
+    background-color: #fff;
+    min-height: 30vh;
+    width: 1300px;
+    margin: auto;
+    border-bottom: 1px solid #134032;
+}
+#percentage{
+    width: 10%;
+    padding: 5px;
+}
+#crit_desc{
+    width: 86%;
+    padding: 5px;
+}
+p{
+    text-align: center;
+}
+#submit_btn{
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    background-color: #134032;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16pt;
+    position: relative;
+    margin: 10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    cursor: pointer;
+
+}
+#submit_btn:hover{
+    background-color: #fff;
+    border: 1px solid #134032;
+    color: #134032;
+    transition: 0.4s;
+}

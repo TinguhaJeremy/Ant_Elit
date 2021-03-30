@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>E-Judging</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/judgePage.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="bar">
+            <div class="logo">
+                <img src="logo.png">
+    
+            </div>
+
+            <ul>
+                <li id="nav1"><a href="#" onclick="display_Criteria()">Criteria</a></li>
+                <li id="nav2"><a href="#" onclick="display_event()">Event Details</a></li>
+            </ul>
+               
+        <div id="menubar" class="container">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div id="x" onclick="back()">Back</div>
+       
+    </div>
+        <div id="container2" class="con">
+            
+            <a href="#">Home</a>
+            <a href="#">Back</a>
+        </div>
+    </body>
+        
+    <header>
+        <div class="formBox">
+            <table>
+                <tr>
+                    <th colspan="7">Judge Name</th>
+                </tr>
+                <tr>
+                    <th>Contestants</th>
+                    <th>Description 1</th>
+                    <th>Description 2</th>
+                    <th>Description 3</th>
+                    <th>Description 4</th>
+                    <th>Description 5</th>
+                    <th>Total</th>
+                </tr>
+
+                <tr>
+                    <td>Contestant 1</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>Contestant 2</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>Contestant 3</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>Contestant 4</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>Contestant 5</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Contestant 6</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Contestant 7</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Contestant 8</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Contestant 9</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Contestant 10</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Contestant 11</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Contestant 12</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Contestant 13</td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td><input type="number" min="0" max="100" value="0"></td>
+                    <td>0</td>
+                </tr>
+            </table>
+            <input type="submit" id="btn" onclick="submit()">
+
+            <div class="criteria_bg" id="BG">
+                <div class="criteria-content">
+                    <table>
+                        <tr>
+                            <th colspan="2">Event Name | Event ID</th>
+                        </tr>
+                        <tr>
+                            <th>Description</th>
+                            <th>Percentage</th>
+                        </tr>
+                        <tr>
+                            <td>Description 1</td>
+                            <td>10%</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Description 2</td>
+                            <td>15%</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Description 3</td>
+                            <td>20%</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Description 4</td>
+                            <td>30%</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Description 5</td>
+                            <td>25%</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>TOTAL</td>
+                            <td>100%</td>
+                        </tr>
+                    </table>
+                     <button onclick="hide_Criteria()">Back</button>
+                </div>
+                  </div>
+                  <div class="event_bg" id="event">
+                    <div class="event_content">
+                        <h2>Event Name:</h2>
+                        <h2>Event ID:</h2>
+                        <h2>Description:</h2>
+                        <h2>Date:</h2>
+                        <h2>Duration:</h2>
+                    </div>
+                    <button onclick="hide_event()" >Back</button>
+            </div>
+            <div class="feedback" id="fd">
+                <div class="fd_content">
+                    <h1>Scores has been submitted</h1>
+                </div>
+                <a href="event.html"><button>OK</button></a>
+            </div>
+            
+            <div class="verify" id="vf">
+                <div class="vf_content">
+                    <h1>Are you sure?</h1>
+                    
+                    <button onclick="ok()">Ok</button>
+                    <button onclick="cancel()">Cancel</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <a href="#"><img src="icons/fb.png"></a>
+            <a href="#"><img src="icons/insta.png"></a>
+            <a href="#"><img src="icons/twitter.png"></a>
+        </footer>
+    </header>
+    <script>
+        var a = document.getElementById("BG");
+        var b = document.getElementById("event");
+        var c = document.getElementById("fd");
+        var d = document.getElementById("nav1");
+        var e = document.getElementById("nav2");
+        var f = document.getElementById("vf");
+
+        function display_Criteria(){
+            a.style.display = "block";
+            b.style.display = "none";
+        }
+        function hide_Criteria(){
+            a.style.display = "none";
+        }
+        
+        function display_event(){
+            b.style.display = "block";
+            a.style.display = "none";
+        }
+        function hide_event(){
+            b.style.display = "none";
+        }
+        function submit(){
+            f.style.display = "block";
+            d.style.display = "none";
+            e.style.display = "none";
+        }
+        function cancel(){
+            f.style.display = "none";
+        }
+        function ok(){
+            c.style.display = "block";
+            f.style.display = "none";
+        }
+    </script>
+</html>

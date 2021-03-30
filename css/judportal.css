@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("bg.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.bar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; 
+    margin: auto;
+     max-width: 1300px;
+    width: 100%;
+    height: 50px;
+    background: #134032;
+    z-index: 1000;
+    font-family: 'Franklin Gothic Medium';
+ }
+ .logo img{
+    position: relative;
+    float: left;
+    margin-top: 8px;
+    width: 130px;
+    height: auto;
+    left: 15px;
+ }
+ 
+ 
+ ul li{
+    display: none;
+ 
+ }
+
+
+.formBox{
+    position: relative;
+    background:#fff;
+    padding: 5px;
+    width: 300px;
+    height: 350px;
+    margin: 20% auto;
+
+}
+
+.logo2{
+    margin: 30px auto;
+    text-align: center;
+}
+.logo2 img{
+ 
+  background-color: #134032;
+   box-shadow: 0 0 20px 0 #7f7f7f3d;
+   width: 150px;
+    height: auto;
+    margin-top: 12px;
+}
+.inputs{
+    top: 170px;
+    position: absolute;
+    width: 225px;
+    transition: 0.5s;
+    font-family: sans-serif;
+
+}
+
+.txtbox{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    cursor: text;
+}
+.btnSubmit{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 6% auto;
+    background-color: #134032;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    
+}
+#login{
+    left: 40px;
+}
+
+@media only screen and (min-width: 768px){
+
+    .bar{
+        height: 65px;  
+             
+   }
+    ul{
+        list-style-type: none;
+        margin-top: 25px;
+        position: relative;
+        float: right;
+        right: 25px;
+    
+    }
+   
+    ul li{
+        display: inline-block;
+    }
+   
+    ul li a{
+       text-decoration: none;
+       color: #fff;
+       padding: 5px 20px;
+       border: 1px solid transparent;
+       transition: 0.5s ease;
+   
+    }
+        
+    .logo img{
+       margin-top: 15px;
+       width: 150px;
+       left: 25px;
+    }
+   
+   
+    .formBox{
+        width: 380px;
+        height: 350px;
+        margin: 10% auto;
+    
+    }
+    
+    .inputs{
+        width: 280px;
+    }
+    
+    #login{
+        left: 50px;
+    }
+    }
+
+@media only screen and (min-width: 1000px){
+
+    .bar{
+        height: 67px;
+    }
+     ul{
+         list-style-type: none;
+         margin-top: 25px;
+         position: relative;
+         float: right;
+         right: 25px;
+     
+     }
+    
+     ul li{
+         display: inline-block;
+     }
+    
+     ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.5s ease;
+    
+     }
+  
+    
+     ul li a:hover{
+        background-color: #fff;
+         color: #000;
+         cursor: pointer;
+     }
+    
+     .logo img{
+        margin-top: 15px;
+        width: 150px;
+        left: 25px;
+     }
+   
+    .formBox{
+        width: 380px;
+        height: 350px;
+        margin: 10% auto;
+    
+    }
+    
+    .inputs{
+        width: 280px;
+    }
+    
+    #login{
+        left: 50px;
+    }
+    }

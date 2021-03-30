@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("bg.jpg");
+    height: 100%;
+    width: 100%;
+     background-size: cover;
+     background-position: center;  
+     background-attachment: fixed;
+     top: 0px;
+     
+}
+
+.formBox{
+    position: relative;
+    min-height: calc(100vh - 160px);
+    height: auto;
+    background:#fff;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.bar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    max-width: 1300px;
+    width: 100%;
+    height: 80px;
+    background: #134032;
+    z-index: 1000;
+    margin: auto;
+
+}
+ ul li{
+    display: none;
+ }
+
+ 
+.bar1, .bar2, .bar3{
+    position: relative;
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0px;
+    top: 25px;
+    left: 30px;
+}
+.bar1{
+    margin-top: 0px;
+}
+
+.con{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #134032;
+    opacity: 95%;
+    transition: 0.6s;
+    border-top: 1px solid #fff;
+    z-index: 10;
+}
+.con a{
+    position: relative;
+    display: block;
+    margin: 20px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    background-color: #134032;
+}
+
+.con a:hover, .con a.active{
+    background-color: #fff;
+    color: #000;
+    transition: 0.6s;
+}
+
+#container2{
+    left: -100%;
+}
+
+#x{
+    font-family: sans-serif;
+    position: relative;
+    display: none;
+    font-size: 25px;
+    color: #fff;
+    top: 26px;
+    left: 30px;
+    box-sizing: content-box;
+    bottom: 0px;
+}
+
+.logo img{
+    position: relative;
+    float: right;
+    margin-top: 18px;
+    width: 170px;
+    height: auto;
+    right: 15px;    
+    margin-bottom: 0px;
+}
+
+footer{
+    background-color: #134032;
+    width: 100vw;
+    height: 80px;
+    max-width: 1300px;
+    margin: auto;
+
+}
+footer img{
+    position: relative;
+    height: 40px;
+    margin: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;   
+}
+
+table{
+    position: relative;
+    width: 800px;
+    font-family: sans-serif;
+    left: 250px;
+    top: 50px;
+    text-align: center;
+    
+}
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+}
+#first{
+    background-color: gold;
+}
+#second, #third{
+    background-color: turquoise;
+}
+.formBox a{
+    text-decoration: none;
+} 
+button{
+    padding: 5px 10px;
+    border: 1px solid #134032;
+    border-radius: 5px;
+    background: transparent;
+    display: inline-flex;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 75%;
+    top: 60px;
+}
+button:hover{
+    cursor: pointer;
+    background: #134032;
+    color: #fff;
+    transition: 0.6s;
+}
+
+
+@media only screen and (min-width: 1000px){
+
+    .profile-con{
+        top: calc(100vh - 84vh);
+        
+    }
+    
+    .container, .con, #x{
+        display: none;
+    }
+
+    ul{
+        list-style-type: none;
+        margin-top: 30px;
+        position: relative;
+        float: right;
+        right: 25px;
+    
+    }
+   
+    ul li{
+        display: inline-block;
+    }
+   
+    ul li a{
+       text-decoration: none;
+       color: #fff;
+       padding: 5px 20px;
+       border: 1px solid transparent;
+       transition: 0.5s ease;
+   
+    }
+    ul li a:hover{
+        background-color: #fff;
+         color: #000;
+         cursor: pointer;
+     }
+       
+    .logo img{
+        float: left;
+        margin-top: 19px;
+        width: 160px;
+        left: 25px;
+    }
+}

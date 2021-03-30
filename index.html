@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Judging</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="bar">
+        <div class="logo">
+            <img src="img/logo.png">
+
+        </div>
+        
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+
+    <div id="menubar" class="container" onclick="menu()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <div id="x" onclick="back()">Back</div>
+    </div>
+    
+    <div id="container2" class="con">
+        
+        <a href="#" class="active">Home</a>
+        <a href="#">Events</a>
+        <a href="#">Feature</a>
+        <a href="#">About</a>
+    </div>
+
+        <header>
+        <div class="title">
+            <h1>CHOOSE A PORTAL</h1>
+        </div>
+        <div class="button">
+            <a href="login.php" class="btn">ORGANIZER</a>
+            <a href="judgePortal.html" class="btn" >JUDGE</a>
+        </div>
+    </header>
+
+    <div class="formBox">
+    <section>
+        <div id="create">      
+         <img src="icons/Create New.png">
+        <p id="Fa">
+            *CREATE EVENTS* <br>
+            Sign-up and create your own Events to organize and to be judge fast, secure, and fair. 
+        </p>
+    </div>
+ 
+    </section>
+
+    <section>
+        <div id="judge">
+        <img src="icons/Judges Events.png">
+        <p id="Fb">
+            *JUDGE EVENTS* <br>
+            Official judges can login and judge participants based on various pre-set categories or
+            criteria.
+        </p>
+    </div>
+    </section>
+
+    <section>
+        <div id="events">
+        <img src="icons/Organizer.png">
+        <p id="Fc">
+            *MULTIPLE EVENTS* <br>
+            Create as many event you want.
+            Manage all your judges and participants from one interface.
+        </p>
+    </div>
+    </section>
+
+    <section>
+        <div id="authen">
+        <img src="icons/Authenticator.png">
+        <p id="Fd">
+            *AUTHENTICATOR* <br>
+            The Organizer will send code to the judges by the use of code generator
+            then judges will input it on the judge login page.
+        </p>
+    </div>
+    </section>
+
+    <section>
+        <div id="auto">
+        <img src="icons/Auto Compute.png">
+        <p id="Fe">
+            *AUTOCOMPUTE* <br>
+            As the judges input the scores, the sheet will automatically computes by the given criteria 
+            as a formula.
+        </p>
+    </div>
+    </section>
+</div>
+
+<footer>
+    <a href="#"><img src="icons/fb.png"></a>
+    <a href="#"><img src="icons/insta.png"></a>
+    <a href="#"><img src="icons/twitter.png"></a>
+</footer>
+
+<script>
+
+    var a = document.getElementById("container2");
+    var b = document.getElementById("menubar")
+    var c = document.getElementById("x")
+
+    function menu(){
+        if(a.style.left = "-100%"){
+            a.style.left = "0%";
+            b.style.display = "none";
+            c.style.display = "block";
+        }
+     }
+
+     function back(){
+         if(c.style.display = "block"){
+            a.style.left = "-100%";
+            b.style.display = "block";
+            c.style.display = "none";
+
+         }
+     }
+
+</script>
+</body>
+</html>
+

@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+    cursor: default;
+ }
+
+ body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("bg.jpg");
+    height: 100%;
+    width: 100%;
+     background-size: cover;
+     background-position: center;
+ }
+.formBox{
+    position: relative;
+    min-height: calc(100vh - 160px);
+    height: auto;
+    background:#fff;
+    max-width: 1300px;
+    margin: auto;
+}
+
+/*MENU BAR*/
+.bar{
+   position: sticky;
+   top: 0;
+   margin: auto;
+   max-width: 1300px;
+   width: 100%;
+   height: 80px;
+   background: #134032;
+   z-index: 1000;
+}
+.logo img{
+   position: relative;
+   float: right;
+   margin-top: 18px;
+   width: 170px;
+   height: auto;
+   right: 15px;
+}
+
+ul li{
+   display: none;
+}
+
+.bar1, .bar2, .bar3{
+    position: relative;
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    top: 25px;
+    left: 30px;
+}
+.bar1{
+    margin-top: 0px;
+}
+.con{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #134032;
+    opacity: 95%;
+    transition: 0.6s;
+    border-top: 1px solid #fff;
+    z-index: 10;
+}
+.con a{
+    position: relative;
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    background-color: #134032;
+}
+.con a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.6s;
+}
+#container2{
+    left: -100%;
+}
+#x{
+    font-family: sans-serif;
+    position: relative;
+    display: none;
+    font-size: 25px;
+    color: #fff;
+    top: 26px;
+    left: 30px;
+    box-sizing: content-box;
+}
+
+footer{
+    background-color: #134032;
+    width: 100vw;
+    height: 80px;
+    max-width: 1300px;
+    margin: auto;
+
+
+}
+footer img{
+    position: relative;
+    height: 40px;
+    margin: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;   
+}
+
+table{
+    position: relative;
+    width: 800px;
+    font-family: sans-serif;
+    left: 100px;
+    top: 20px;
+    text-align: center;
+    
+}
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table img{
+    height: 150px;
+}
+section{
+    padding: 15px 0 25px 0;
+}
+.cover{
+    position: relative;
+    background-color: lightgray;
+    width: 1000px;
+    min-height: calc(100vh - 160px);
+    height: auto;
+    margin: auto;
+}
+table button{
+    padding: 5px;
+    font-size: 11pt;
+    cursor: pointer;
+    transition: 0.5s;
+}
+table button:hover{
+    background-color: #134032;
+    color: #fff;
+}
+.vote, .sign_up{
+    position: fixed;
+    top: 0;
+    width: 1300px;
+    height: 100vh;
+    background: #134032;
+    margin: auto;
+    display: none;
+    
+}
+.sign_up{
+    opacity: 95%;
+    left: 292px;
+    width: 1302px;
+    
+}
+.container_vote{
+    position: relative;
+    width: 1000px;
+    min-height: calc(100vh - 80px);
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+}
+.container_vote table{
+    top: 100px;
+}
+.container_vote a{
+    text-decoration: none;
+}
+
+#submit, #back{
+    position: relative;
+    top: 110px;
+    float: right;
+    right: 105px;
+    padding: 3px;
+    background: #fff;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 11pt;
+    cursor: pointer;
+    margin: 0 5px;
+}
+#submit:hover, #back:hover{
+    background: #134032;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.loginBox{
+    width: 330px;
+    height: 470px;
+    position: relative;
+    top: 20%;
+    left: 40%;
+    background: #fff;
+    margin-bottom: 0px;
+    overflow: hidden;   
+}
+.btnBox{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #9bb6ad;
+    border-radius: 30px;
+}
+
+.switch{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    left: 7px;
+    margin: auto;
+}
+#log{
+    color: #fff;
+}
+#sign{
+    margin-left: 8px;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background-color: #134032;
+    border-radius: 30px;
+    transition: 0.5s;
+    
+}
+
+
+.logo2{
+    margin: 30px auto;
+    text-align: center;
+}
+.logo2 img{
+ 
+  background-color: #134032;
+   box-shadow: 0 0 20px 0 #7f7f7f3d;
+   width: 150px;
+    height: auto;
+    margin-top: 12px;
+}
+.inputs{
+    top: 180px;
+    position: absolute;
+    width: 225px;
+    transition: 0.5s;
+    font-family: sans-serif;
+
+}
+
+.txtbox{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    cursor: text;
+}
+.btnLog, .btnSign,.btnCancel, .btnCancel2{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color: #134032;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+}
+.btnCancel, .btnCancel2{
+    position: absolute;
+    top: 190px;
+    left: 18px;
+    width: 59% ;
+    text-align: center;
+    text-decoration: none;
+}
+.btnCancel2{
+    top: 235px;
+}
+
+.btnLog{
+    position: relative;
+    top: 40px;
+}
+
+.forgot{
+    position: relative;
+    font-size: 12px;
+    color: #777;
+    top: 10px;
+}
+.checkbox{
+    margin: 15px 10px 30px 0;
+     cursor: pointer;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login{
+    left: 55px;
+}
+#signup{
+    left: 420px;
+}
+
+@media only screen and (min-width: 1050px){
+    
+    header{
+         height: 60vh;
+    }
+     ul{
+         list-style-type: none;
+         margin-top: 32px;
+         position: relative;
+         float: right;
+         right: 25px;
+     }
+     ul li{
+         display: inline-block;
+     }
+     ul li .active{
+        border: 1px solid #fff;
+    }
+     ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+        margin: 5px;
+     }    
+    
+     ul li a:hover{
+        background-color: #fff;
+         color: #000;
+         cursor: pointer;
+     }
+     .logo img{
+        float: left;
+        margin-top: 21px;
+        width: 150px;
+        left: 25px;
+     }
+     .container, .con, #x{
+         display: none;
+     }
+     ul li.active a{
+        border: 1px solid #fff;
+    }
+    }
